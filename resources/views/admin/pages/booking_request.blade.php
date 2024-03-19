@@ -38,7 +38,7 @@
                         <td>{{ $booking_request->room_type }}</td>
                         <td>{{ $booking_request->person_numbers }}</td>
                         <td>
-                            <a href="{{ url('/admin/booking-request','confrim-'.$booking_request->id) }}" class="btn btn-success">Confrim Booking</a>
+                            <a href="{{ url('/admin/booking-request','success-'.$booking_request->id) }}" class="btn btn-success">Confrim Booking</a>
                             <a href="{{ url('/admin/booking-request','cancel-'.$booking_request->id) }}" class="btn btn-danger">Cancel Booking</a>
                         </td>
                     </tr>

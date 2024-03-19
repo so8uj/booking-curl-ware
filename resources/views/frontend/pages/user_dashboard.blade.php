@@ -76,12 +76,7 @@
                                     @endif
                                     
                                 </td>
-                                <td>
-                                    @if ($booking->status == 'inprogress')
-                                        <a href="{{ url('/admin/booking-request','confrim-'.$booking->id) }}" class="btn btn-success">Confrim Booking</a>
-                                    @endif
-                                    
-                                </td>
+                                
                             </tr>
                         @endforeach
                     </tbody>

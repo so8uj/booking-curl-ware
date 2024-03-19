@@ -26,3 +26,11 @@ html{
 .w-full{
     width: 100%;
 }
+
+@media screen and (max-width:1200px) {
+    .banner h1{
+        font-size: 44px;
+        line-height: 110%;
+    }
+    
+}
