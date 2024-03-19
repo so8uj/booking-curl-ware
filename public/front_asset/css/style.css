@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#00000075,#00000075),url('../img/banner-bg.jpg') center / cover no-repeat fixed;
+}
+.banner h1{
+    font-size: 72px;
+    line-height: 110%;
+}
+
+.section-padding{
+    padding: 100px 0px;
+}
+
+.w-full{
+    width: 100%;
+}
